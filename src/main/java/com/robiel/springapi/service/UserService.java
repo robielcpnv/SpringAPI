@@ -25,4 +25,8 @@ public class UserService {
     public User getUser(Integer id) {
         return usersList.get(id);
     }
+
+    public List<User> getUsers() {
+        return usersList;
+    }
 }
